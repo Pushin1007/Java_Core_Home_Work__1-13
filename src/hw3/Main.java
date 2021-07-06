@@ -72,7 +72,7 @@ public class Main {
             } else {
                 length = userWord.length();
             }System.out.println("\n Посмотрите сколько букв совпало:");
-            for (int i = 0; i < 14; i++) { //выводим 15 знаков
+            for (int i = 0; i < 15; i++) { //выводим 15 знаков
                 if (i < length && userWord.charAt(i) == randomWord.charAt(i)) {
                     System.out.print(randomWord.charAt(i)); // если знак совпадает выводим его
                 } else {
