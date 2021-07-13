@@ -14,14 +14,15 @@ public class Main {
                 new Employee("Семянников", "Логист", "sem@mail.ru", "+7-911-555-52-81", 105000, 34)
         };
 
+        System.out.println(Math.cos(30));
 
         //employee1.info();// проверка метода
 
         //5.С помощью цикла вывести информацию только о сотрудниках старше 40 лет.
         for (int i = 0; i < employees.length; i++) {
             if (employees[i].getAge() > 40) {
-                //employees[i].info(); //первый вариант вывода
-                System.out.println(employees[i].toString()); //Второй вариант вывода
+                employees[i].info(); //первый вариант вывода
+                //System.out.println(employees[i].toString()); //Второй вариант вывода
             }
         }
     }
